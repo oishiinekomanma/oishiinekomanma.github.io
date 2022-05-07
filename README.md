@@ -1,1 +1,1 @@
-https://oishiinekomanma.github.io/log/
+https://oishiinekomanma.github.io
