@@ -9,7 +9,7 @@ a {
   transition: opacity .3s;
   text-decoration: none;
   color: #7cb1ff;
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 img {
