@@ -11,18 +11,6 @@ $(function () {
     return false;
   });
 
-  //ページトップ
-  $("#js-page-top").on("click", function () {
-    $("body,html").animate({ scrollTop: 0, }, 300);
-    return false;
-  });
-
-  /*
-  window.addEventListener("load", function () {
-    $(".mv").addClass("is-active");
-  })
-  */
-
   // animation呼び出し
   if ($(".js-scroll-trigger").length) {
     scrollAnimation();
