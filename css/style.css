@@ -353,22 +353,6 @@ img {
 }
 
 /*--------------------------------
- ページトップ
----------------------------------*/
-.page-top {
-  font-weight: bold;
-  padding: 10px;
-  cursor: pointer;
-  text-align: center;
-  background-color: #41446b /* #4c4c4c */ ;
-}
-
-.page-top .material-icons-outlined {
-  vertical-align: bottom;
-  color: #fff;
-}
-
-/*--------------------------------
  フッター
 ---------------------------------*/
 .footer {
