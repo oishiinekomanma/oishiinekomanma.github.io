@@ -24,7 +24,7 @@ $(function () {
                 scroll = $(window).scrollTop(),
                 windowHeight = $(window).height();
 
-            if (scroll > position - windowHeight + 200) {
+            if (scroll > position - windowHeight + 20) {
                 $(this).addClass("is-active");
             }
         });

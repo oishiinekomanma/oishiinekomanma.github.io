@@ -235,7 +235,7 @@ img {
 }
 
 .if-youtube {
-  width: 70%;
+  width: 99%;
   aspect-ratio: 16 / 9;
 }
 
@@ -311,7 +311,9 @@ img {
 }
 
 .achievement-name {
+  font-size: 15px;
   margin-bottom: 10px;
+  font-weight: bold;
 }
 
 .achievement-text {
@@ -455,7 +457,12 @@ img {
 
   /* 見出し */
   .title {
-    font-size: 30px;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .subtitle {
+    font-size: 24px;
     margin-bottom: 20px;
   }
 
@@ -475,7 +482,7 @@ img {
   }
 
   .container {
-    padding: 0 20px;
+    padding: 0 5px;
   }
 
   /* ヘッダー */
@@ -493,7 +500,7 @@ img {
   }
 
   .gnav-item a {
-    font-size: 15px;
+    font-size: 14px;
   }
 
   .gnav-item a:after {
@@ -538,22 +545,24 @@ img {
 
   /* Works */
   .works-name {
-    font-size: 14px;
+    font-size: 12px;
+    margin-top: 3px;
   }
 
   .works-info {
-    font-size: 12px;
+    font-size: 10.5px;
     margin-top: 3px;
   }
 
   .works-list {
     justify-content: space-between;
+    margin-bottom: 50px;
   }
 
   .works-item {
-    flex: 0 0 48%;
+    flex: 0 0 49.5%;
     margin-right: 0;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   /* achievement */
@@ -563,7 +572,8 @@ img {
   }
 
   .achievement-item {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     margin-bottom: 35px;
   }
 
@@ -573,11 +583,19 @@ img {
 
   .achievement-name {
     margin-bottom: 5px;
+    font-size: 15px;
   }
 
   .achievement-text {
-    font-size: 13px;
+    font-size: 11px;
     line-height: 1.7;
+    margin-right: 15px;
+  }
+
+  .achievement-img {
+    width: 70px;
+    height: auto;
+    margin-right: 20px;
   }
 
   /* About */
